@@ -1,0 +1,18 @@
+Assignment 1 COMP90051 Statistical Machine Learning
+Alejandro Arias, Melissa Speer, Felipe Ramos
+
+The code is in two Jupyter notebook with python 3 
+List of dependencies:
+pandas, scikit learn, numpy and networkx to calculate the feature metrics.
+
+The first jupyter notebook handle the pre-processing stages in the next:
+1)	Partition of training and development sets
+2)	Hypergraph papers list to edges list transformation
+3)	Graph generation using network library
+4)	Negative examples generation for both training and development set
+5)	Feature calculation (several feature_maker functions) for training, development and test set using the graph.
+6)	Exporting files
+
+
+The second Jupyter notebook called “Models” and contains the train the models logistic regression, Support Vector Machines and Random Forest.
+ Then, the hyperparameter tuning, error analysis and format and exporting the final prediction.
